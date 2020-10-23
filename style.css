@@ -1,0 +1,211 @@
+.font{
+    
+    font-family: 'Julius Sans One', sans-serif;
+    
+}
+.font2{
+    
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.logo{
+    
+    letter-spacing: 3px;
+    
+}
+.center{
+    
+    text-align: center;
+    
+}
+.jumbotron{
+    
+    background-image: url(imgs/jumbo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.whitecolor{
+    
+    color: white;
+    
+}
+.blackcolor{
+    
+    color: black;
+    
+}
+.bgwhite{
+    
+    background-color: white;
+    
+}
+nav{
+    
+    display: flex;
+    justify-content:space-around;
+    min-height: 10vh;
+    align-items: center;
+    background-color: black;
+    color: white;
+    
+}
+.nav-items{
+    
+    display: flex;
+    justify-content: space-around;
+    width: 52%;
+    
+}
+@media screen and (max-width: 1000px){
+    
+    .nav-items{
+    
+        display: flex;
+        justify-content: space-around;
+        width: 68%;
+    
+    }
+    
+}
+.nav-items li{
+    
+    list-style: none;
+    position: relative;
+    font-weight: bold;
+    letter-spacing: 2px;
+    top:14px;
+    
+}
+.nav-items a{
+    
+    text-decoration: none;
+    color: white;
+    
+    
+}
+.nav-items a:hover{
+    
+    text-decoration: none;
+    color: darkgray;
+    
+    
+}
+.line{
+    
+    height: 3px;
+    width: 27px;
+    margin: 5px;
+    background-color: white;
+    
+}
+.burger{
+    
+    display: none;
+    cursor: pointer;
+    position: relative;
+    bottom: 5px;
+}
+@media screen and (max-width: 800px){
+    body{
+        
+        overflow-x: hidden;
+        
+    }
+    .nav-items{
+    
+        position: absolute;
+        right:0px;
+        height:90vh;
+        top:10vh;
+        background-color: black;
+        opacity: 0.8;
+        display: block;
+        flex-direction: column;
+        text-align: center;
+        width:55%;
+        padding-left: 0px;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    
+    }
+    .nav-items li{
+        
+        margin-top:5vh;
+        margin-bottom: 5vh;
+        
+    }
+    .burger{
+        
+        display: block;
+    }
+    
+}
+#login-btn{
+    
+    position: relative;
+    bottom:5px;
+    
+}
+#extraspcontop{
+    
+    height: 10vh;
+    
+}
+.burger-active{
+    
+    transform: translateX(0%);
+    
+}
+.au-head{
+    margin-top: -6px;
+    color: white;
+    background-color: black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    padding-left: 10px;
+    
+}
+.incrfont{
+    
+    font-size: 130%;
+    
+}
+.col{
+    
+    min-width: 250px;
+    
+}
+.lightgrey{
+    
+    background-color: #e8e8e8;
+    
+}.card{
+    
+    border-radius: 10px;
+    
+}
+#aboutuscard{
+    
+    border-radius: 0px;
+    
+}
+.categ{
+    
+    margin-left: 22px;
+    
+}
+.catcard{
+    
+    text-decoration: none;
+    color: black;
+    
+}
+.catcard:hover{
+    
+    text-decoration: none;
+    color: #0064CF;
+    
+}
