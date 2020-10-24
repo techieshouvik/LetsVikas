@@ -2,7 +2,9 @@ const navSlide=()=> {
     
     const burger=document.querySelector('.burger');
     const nav=document.querySelector('.nav-items');
-    // I have put a comment
+
+    // This is another comment
+
     burger.addEventListener('click',()=>{
         
         nav.classList.toggle('burger-active');
