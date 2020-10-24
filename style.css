@@ -23,6 +23,7 @@
     background-image: url(imgs/jumbo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 0px;
     
 }
 .whitecolor{
@@ -118,7 +119,7 @@ nav{
         right:0px;
         height:90vh;
         top:10vh;
-        background-color: white;
+        background-color: black;
         opacity: 0.95;
         display: block;
         flex-direction: column;
@@ -194,6 +195,7 @@ nav{
 #aboutuscard{
     
     border-radius: 0px;
+    margin-top: 0px;
     
 }
 .categ{
