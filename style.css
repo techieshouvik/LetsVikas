@@ -119,7 +119,7 @@ nav{
         height:90vh;
         top:10vh;
         background-color: black;
-        opacity: 0.8;
+        opacity: 0.95;
         display: block;
         flex-direction: column;
         text-align: center;
@@ -158,9 +158,8 @@ nav{
     
 }
 .au-head{
-    margin-top: -6px;
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: white;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     border-top-left-radius: 0px;
@@ -170,12 +169,17 @@ nav{
 }
 .incrfont{
     
-    font-size: 130%;
+    font-size: 115%;
+    
+}
+.incrfont2{
+    
+    font-size: 125%;
     
 }
 .col{
     
-    min-width: 250px;
+    min-width: 200px;
     
 }
 .lightgrey{
@@ -207,5 +211,10 @@ nav{
     
     text-decoration: none;
     color: #0064CF;
+    
+}
+.col-min-width{
+    
+    min-width: 300px;
     
 }
