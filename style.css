@@ -35,7 +35,6 @@ html{
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 0px;
-    
 }
 .whitecolor{
     
@@ -267,6 +266,7 @@ col-lg-3{
     background-color: white;
     display: flex;
     align-items: center;
+    clip-path: polygon(0 0, 100% 0, 100% 93%, 0 100%);
     
 }
 .aboutusimg{
@@ -394,30 +394,33 @@ input{
     
     padding-top: 5px; 
     padding-bottom: 10px !important; 
-    transform: skewY(-1.2deg);
-    transform-origin: 100%;
+    clip-path: polygon(0 0, 100% 5%, 100% 93%, 0% 100%);
     
 }
 .accordion {
-  background-color:#ccffff;
-  color: #444;
+  background-color:teal;
+  color: white;
   cursor: pointer;
   padding: 20px;
   width: 100%;
-  border: 1%;
+  border: 2px solid white;
   text-align: left;
   outline: none;
-  font-size: 15px;
+  font-size: 18px;
   transition: 0.4s;
+    font-weight: 480;
 }
 
 .active, .accordion:hover {
   background-color: white;
+    color: black;
+}
+.active, .accordion:active {
+  background-color: lightseagreen;
 }
 
 .accordion:after {
   content: '\002B';
-  color: #777;
   font-weight: bold;
   float: right;
   margin-left: 5px;
@@ -428,8 +431,9 @@ input{
 }
 
 .panel {
-  padding: 0 18px;
-  background-color: white;
+  padding: 0px 10px;
+    font-size: 110%;
+  background-color: aliceblue;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
@@ -471,4 +475,9 @@ input{
 .fa-instagram {
   background: #125688;
   color: white;
+}
+.faqsect{
+    
+    border-radius: 10px !important;
+    
 }

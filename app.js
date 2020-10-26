@@ -1,4 +1,4 @@
-const navSlide=()=> {
+const navSlide=()=> { //Mobile View Navigation Code
     
     const burger=document.querySelector('.burger');
     const nav=document.querySelector('.nav-items');
@@ -10,12 +10,8 @@ const navSlide=()=> {
     });
     
 }
-const app=()=>{
-    
-    navSlide();
-    
-}
-app();
+
+const faq=()=>{  //FAQ code
 var acc = document.getElementsByClassName("accordion");
 var i;
 
@@ -30,3 +26,12 @@ for (i = 0; i < acc.length; i++) {
     } 
   });
 }
+}
+
+const app=()=>{ //Main function
+    
+    navSlide();
+    faq();
+    
+}
+app();
