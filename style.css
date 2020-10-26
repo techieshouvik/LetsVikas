@@ -10,17 +10,23 @@
 }
 .logo{
     
-    letter-spacing: 3px;
+    letter-spacing: 4px;
+    
+}
+.overlay{
+    
+    background-color:black;
+    
     
 }
 .center{
     
-    text-align: center;
+    text-align: center !important;
     
 }
 .jumbotron{
     
-    background-image: url(imgs/jumbo.jpg);
+    background-image: url(imgs/jumboimg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 0px;
@@ -31,6 +37,11 @@
     color: white;
     
 }
+.blackbg{
+    
+    background-color: black;
+    
+}
 .blackcolor{
     
     color: black;
@@ -39,6 +50,18 @@
 .bgwhite{
     
     background-color: white;
+    
+}
+.rapidword{
+    
+    border-radius: 10px;
+    background-color: black;
+    color:white;
+    padding: 5px;
+    border-bottom: 8px solid red;
+    border-right: 8px solid #17A2B8;
+    border-top: 8px solid lightgreen;
+    border-left: 8px solid #FDD321;
     
 }
 nav{
@@ -54,8 +77,9 @@ nav{
 .nav-items{
     
     display: flex;
+    align-items: center;
     justify-content: space-around;
-    width: 52%;
+    width: 60%;
     
 }
 @media screen and (max-width: 1000px){
@@ -71,12 +95,18 @@ nav{
 }
 .blueback{
     
-    background-color: #0069D9;
+    background-color: #169DB2;
     
 }
 .blue{
     
-    color:#0069D9 !important;
+    color:#169DB2 !important;
+    
+}
+.c{
+    
+    min-width: 240px;
+    margin: 5px;
     
 }
 .nav-items li{
@@ -98,7 +128,7 @@ nav{
 .nav-items a:hover{
     
     text-decoration: none;
-    color: darkgray;
+    color: black;
     
     
 }
@@ -107,7 +137,21 @@ nav{
     height: 3px;
     width: 27px;
     margin: 5px;
-    background-color: white;
+    
+}
+.l1{
+   
+    background-color: red;
+    
+}
+.l2{
+    
+    background-color: orange;
+    
+}
+.l3{
+    
+    background-color: yellow;
     
 }
 .burger{
@@ -117,7 +161,7 @@ nav{
     position: relative;
     bottom: 5px;
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 908px){
     body{
         
         overflow-x: hidden;
@@ -152,12 +196,6 @@ nav{
     }
     
 }
-#login-btn{
-    
-    position: relative;
-    bottom:5px;
-    
-}
 #extraspcontop{
     
     height: 10vh;
@@ -166,16 +204,6 @@ nav{
 .burger-active{
     
     transform: translateX(0%);
-    
-}
-.au-head{
-    color: black;
-    background-color: white;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-    padding-left: 10px;
     
 }
 .incrfont{
@@ -202,12 +230,6 @@ nav{
     border-radius: 10px;
     
 }
-#aboutuscard{
-    
-    border-radius: 0px;
-    margin-top: 0px;
-    
-}
 .categ{
     
     margin-left: 22px;
@@ -222,7 +244,7 @@ nav{
 .catcard:hover{
     
     text-decoration: none;
-    color: #0064CF;
+    color:yellowgreen;
     
 }
 .col-min-width{
@@ -230,34 +252,149 @@ nav{
     min-width: 300px;
     
 }
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
+col-lg-3{
+    
+    font-weight: bold !important;
+    
 }
+.aboutus{
+    
+    background-color: white;
+    display: flex;
+    align-items: center;
+    
+}
+.aboutusimg{
+    
+    border-radius: 10px !important;
+    padding: 6px;
+    border-bottom: 8px solid red;
+    border-right: 8px solid #17A2B8;
+    border-top: 8px solid lightgreen;
+    border-left: 8px solid #FDD321;
+    text-align: center;
+    
+}
+.aboutusimgc{
+    
+    text-align: center;
+    display: flex;
+    align-items: center;
+    
+}
+.aboutusinfo{
+    
+    display: flex;
+    align-items: center;  
+}
+.bold{
+    
+    font-weight:bold;
+    
+}
+li{
+    
+    margin-bottom:20px;
+    
+}
+.incrfontlist{
+    
+    font-size: 28px;
+    
+}
+@media screen and (max-width: 992px){
+    
+    .incrfontlist{
+    
+        font-size: 130%;
+    
+    }
+    li{
+    
+        margin:15px;
+    
+    }
 
-.fa:hover {
-    opacity: 0.7;
+    
 }
+@media screen and (max-width: 768px){
+    
+    .incrfontlist{
+    
+        font-size: 100%;
+    
+    }
+    li{
+    
+        margin:15px;
+    
+    }
 
-.fa-facebook {
-  background: #3B5998;
-  color: white;
+    
 }
-.fa-instagram {
-  background: #125688;
-  color: white;
-}
+@media screen and (max-width: 576px){
+    
+    .incrfontlist{
+    
+        font-size: 130%;
+    
+    }
+    li{
+    
+        margin:15px;
+    
+    }
 
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
+    
 }
+.donate-form-wrapper{
+    
+    width:90%;
+    margin: 0px auto;
+    background-color: #93b51f;
+    border-radius: 10px;
+    
+}
+.rapiddonate{
+    
+    margin: 0px auto;
+    padding-bottom: 0px;
+    background-color: #169DB2;
+    color: white;
+    border: 4px solid #169DB2;
 
-.fa-youtube {
-  background: #bb0000;
-  color: white;
+    
+}
+.rapiddonate:hover{
+    
+    background-color: white;
+    color:black;
+    background-color: white;
+    border: 4px solid #169DB2;
+
+    
+}
+input{
+    
+    border-radius: 5px !important;
+    height: 50px !important;
+    
+}
+.pinkbg{
+    
+    background-color: #F59BAD;
+    
+}
+.donate-container{
+    
+    padding-top: 5px; 
+    padding-bottom: 10px !important; 
+    transform: skewY(-1.2deg);
+    transform-origin: 100%;
+    
+}
+.social{
+    
+    margin: 5px;
+    
 }
