@@ -351,7 +351,7 @@ li{
     
     width:90%;
     margin: 0px auto;
-    background-color: #93b51f;
+    background-color: #FCD32E;
     border-radius: 10px;
     
 }
@@ -359,9 +359,9 @@ li{
     
     margin: 0px auto;
     padding-bottom: 0px;
-    background-color: #169DB2;
+    background-color: #2F3837;
     color: white;
-    border: 4px solid #169DB2;
+    border: 4px solid #2F3837;
 
     
 }
@@ -370,7 +370,7 @@ li{
     background-color: white;
     color:black;
     background-color: white;
-    border: 4px solid #169DB2;
+    border: 4px solid #2F3837;
 
     
 }
@@ -382,7 +382,7 @@ input{
 }
 .pinkbg{
     
-    background-color: #F59BAD;
+    background-color: #2F3837;
     
 }
 .donate-container{
