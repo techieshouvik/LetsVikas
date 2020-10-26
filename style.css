@@ -411,23 +411,15 @@ input{
     font-weight: 480;
 }
 
-.active, .accordion:hover {
+.accordion:hover {
   background-color: white;
     color: black;
 }
-.active, .accordion:active {
-  background-color: lightseagreen;
-}
-
 .accordion:after {
   content: '\002B';
   font-weight: bold;
   float: right;
   margin-left: 5px;
-}
-
-.active:after {
-  content: "\2212";
 }
 
 .panel {
@@ -479,5 +471,38 @@ input{
 .faqsect{
     
     border-radius: 10px !important;
+    
+}
+.mainsect{
+    
+    background-color: white;
+    
+}
+.breadcrumb{
+    
+    width: 100%;
+    
+}
+.breadcrumbcontainer{
+    
+    background-color: #E9ECEF;
+    
+}
+.orstatement{
+    
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}.signuplink{
+    
+    margin-left: 10px;
+    
+}
+#welcome{
+    
+    background-color: #F4D03F;
+    padding: 5px;
+    border-radius: 10px;
     
 }
