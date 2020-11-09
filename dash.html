@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <title>LetsVikas</title>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    
+        <link href="style.css" rel="stylesheet">
+        
+        <!--Google Font-->
+        <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    </head>
+	<style>
+	html{
+    
+    scroll-behavior: smooth;
+    
+}
+.font{
+    
+    font-family: 'Julius Sans One', sans-serif;
+    
+}
+.font2{
+    
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.logo{
+    
+    letter-spacing: 4px;
+    
+}
+.overlay{
+    
+    background-color:black;
+    
+    
+}
+.center{
+    
+    text-align: center !important;
+    
+}
+.jumbotron{
+    
+    background-image: url(imgs/jumboimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0px;
+}
+.whitecolor{
+    
+    color: white;
+    
+}
+.blackbg{
+    
+    background-color: black;
+    
+}
+.blackcolor{
+    
+    color: black;
+    
+}
+.bgwhite{
+    
+    background-color: white;
+    
+}
+.rapidword{
+    
+    border-radius: 10px;
+    background-color: black;
+    color:white;
+    padding: 5px;
+    border-bottom: 8px solid red;
+    border-right: 8px solid #17A2B8;
+    border-top: 8px solid lightgreen;
+    border-left: 8px solid #FDD321;
+    
+}
+nav{
+    
+    display: flex;
+    justify-content:space-around;
+    min-height: 10vh;
+    align-items: center;
+    background-color: black;
+    color: white;
+    
+}
+.nav-items{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+    
+}
+@media screen and (max-width: 1000px){
+    
+    .nav-items{
+    
+        display: flex;
+        justify-content: space-around;
+        width: 68%;
+    
+    }
+    
+}
+.blueback{
+    
+    background-color: #169DB2;
+    
+}
+.blue{
+    
+    color:#169DB2 !important;
+    
+}
+.c{
+    
+    min-width: 240px;
+    margin: 5px;
+    
+}
+.nav-items li{
+    
+    list-style: none;
+    position: relative;
+    font-weight: bold;
+    letter-spacing: 2px;
+    top:14px;
+    
+}
+.nav-items a{
+    
+    text-decoration: none;
+    color: white;
+    
+    
+}
+.nav-items a:hover{
+    
+    text-decoration: none;
+    color: black;
+    
+    
+}
+.line{
+    
+    height: 3px;
+    width: 27px;
+    margin: 5px;
+    
+}
+.l1{
+   
+    background-color: red;
+    
+}
+.l2{
+    
+    background-color: orange;
+    
+}
+.l3{
+    
+    background-color: yellow;
+    
+}
+.burger{
+    
+    display: none;
+    cursor: pointer;
+    position: relative;
+    bottom: 5px;
+}
+@media screen and (max-width: 908px){
+    body{
+        
+        overflow-x: hidden;
+        
+    }
+    .nav-items{
+    
+        position: absolute;
+        right:0px;
+        height:90vh;
+        top:10vh;
+        background-color: black;
+        opacity: 0.95;
+        display: block;
+        flex-direction: column;
+        text-align: center;
+        width:55%;
+        padding-left: 0px;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    
+    }
+    .nav-items li{
+        
+        margin-top:5vh;
+        margin-bottom: 5vh;
+        
+    }
+    .burger{
+        
+        display: block;
+    }
+    
+}
+img {
+  border-radius: 50%;
+}
+/-------------------------------------------------------------------/
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 50px;
+  margin-right:500px;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+	</style>
+    <body style="background-color: white ">
+
+        <!--NavBar-->
+        <nav class="fixed-top blueback">
+            
+            <div class="font logo"><h1><strong>LetsVikas</strong></h1></div>
+            <ul class="nav-items font">
+                <li class="center"><a href="#aboutussect">About Us</a></li>
+                <li class="center"><a href="#donationsect" >Rapid<br>Donate</a></li>
+                <li class="center"><a href="#faqsect">FAQs</a></li>
+                <li class="center"><a href="">Contact Us</a></li>
+                <li><a href="signin.html" id="login-btn" class="btn btn-outline-light">Account</a></li>
+            </ul>
+            <div class="burger">
+            
+                <div class="line l1"></div>
+                <div class="line l2"></div>
+                <div class="line l3"></div>
+                
+            </div>
+	
+        </nav>
+		<div class="w3-sidebar w3-bar-block w3-collapse w3-card w3-animate-left" style="width:250px;" id="mySidebar">
+  <button class="w3-bar-item w3-button w3-large w3-hide-large" onclick="w3_close()">Close &times;</button>
+  <img src="teamss.jpg" alt="Avatar" style="width:150px;margin-left:35px">
+  <a style="margin-left:35px;">SHOUVIK C.</a>
+  <a href="#" class="w3-bar-item w3-button"><strong>Dasboard</strong></a>
+  <a href="#" class="w3-bar-item w3-button">Home</a>
+  <a href="#" class="w3-bar-item w3-button">Previous Uploads</a>
+  <a href="#" class="w3-bar-item w3-button">Donations</a>
+  
+</div>
+
+<div class="w3-main" style="margin-left:250px;margin-top:85px;" >
+<div class="w3-teal">
+  <button class="w3-button w3-teal w3-xlarge w3-hide-large" onclick="w3_open()">&#9776;</button>
+  <div class="w3-container">
+    <h1>Welcome Aboard!!</h1>
+  </div>
+</div>
+
+<div class="w3-container">
+  <div class="card">
+  <img src="aksh2.jpg" style="width:20%">
+  <h1>Shouvik Suchi</h1>
+  <p class="title">CEO & Founder,suchi</p>
+  <p>Bennett University</p>
+  
+  <p><button>Share about your Work</button></p>
+</div>
+</div>
+   
+</div>
+
+
+	</body>
+	<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+    
+</html>
