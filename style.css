@@ -518,6 +518,16 @@ input{
   color: grey;
   font-size: 18px;
 }
+.card1{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 383px;
+    left: 1000px;
+	width: 400px;
+    text-align: center;
+    font-family: arial;
+}
+	
 
 button {
   border: none;
