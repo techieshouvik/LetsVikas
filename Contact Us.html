@@ -42,9 +42,10 @@ input[type=submit]:hover {
 
 /* Create two columns that float next to eachother */
 .column {
-  float: left;
+  float: center;
   width: 50%;
   margin-top: 6px;
+  margin-left:350px;
   padding: 20px;
 }
 
@@ -73,17 +74,15 @@ input[type=submit]:hover {
     <p>Swing by for a cup of coffee, or leave us a message:</p>
   </div>
   <div class="row">
-    <div class="column">
-      <img src="imgs/contactus.jpg" style="width:100%">
-    </div>
+    
     <div class="column">
       <form action="/action_page.php">
 		<label for="lname">Email</label>
-        <input type="text" id="lname" name="lastname" placeholder="Email">
+        <input type="text" id="lname" name="lastname" placeholder="Email" style="background-color:#DFFBFB ;">
 		<label for="lname">Subject</label>
-        <input type="text" id="lname" name="lastname" placeholder="Subject">
+        <input type="text" id="lname" name="lastname" placeholder="Subject" style="background-color:#DFFBFB ;">
 		<label for="subject">Message</label>
-        <textarea id="subject" name="subject" placeholder="Message" style="height:170px"></textarea>
+        <textarea id="subject" name="subject" placeholder="Message" style="height:170px;background-color:#DFFBFB ;"></textarea>
         <input type="submit" value="Submit">
       </form>
     </div>
